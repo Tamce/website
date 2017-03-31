@@ -1,0 +1,16 @@
+{
+    "name": "tamce/website",
+    "type": "project",
+    "authors": [{
+        "name": "tamce",
+        "email": "tamce@outlook.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Tamce\\": "./src"
+        }
+    },
+    "require": {
+        "michelf/php-markdown": "^1.7"
+    }
+}
