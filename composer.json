@@ -7,10 +7,26 @@
     }],
     "autoload": {
         "psr-4": {
-            "Tamce\\": "./src"
-        }
+            "App\\": "./src"
+        },
+        "files": [
+            "./src/Facades/Helpers.php"
+        ]
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:Tamce/Router.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:Tamce/Renderer.git"
+        }
+    ],
     "require": {
-        "michelf/php-markdown": "^1.7"
+        "michelf/php-markdown": "^1.7",
+        "tamce/router": "dev-master",
+        "tamce/renderer": "dev-master",
+        "illuminate/database": "^5.4"
     }
 }
